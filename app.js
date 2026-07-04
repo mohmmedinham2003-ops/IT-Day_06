@@ -17,7 +17,12 @@
 let customer2 = {
     name: "John",
     age: 30,
-    address: "wattala"
+    address: "wattala",
+    salary : 50000
 };
 
-console.log(customer2);
+console.log(customer2.name);
+console.log(customer2.age);
+console.log(customer2.address);
+console.log(customer2.salary);
+

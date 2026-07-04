@@ -77,15 +77,15 @@ let heading = document.getElementById("heading");
 let number = 0;
 
 function increment() {
-    heading.innerText = "sanga"+ number++;
+    heading.innerText = "sanga"+ (++number);
     console.log("clicked");
 
 }
 
+
 function decrement(){
-        heading.innerText = "sanga"+ number--;
+        heading.innerText = "sanga"+ (--number);
     console.log("clicked");
-    
 
 }
 

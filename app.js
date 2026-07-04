@@ -88,32 +88,56 @@
 //     console.log("clicked");
 
 // }
-let num = 0;
+// let num = 0;
 
-function adding() {
-    let txtInput1 = document.getElementById("inputText01");
-    console.log(txtInput1.value);
-    let txtInput2 = document.getElementById("inputText02");
-    console.log(txtInput2.value);
-    let heading = document.getElementById("heading");
-    num = Number(txtInput1.value) + Number(txtInput2.value);
-    heading.innerText = num;
+// function adding() {
+//     let txtInput1 = document.getElementById("inputText01");
+//     console.log(txtInput1.value);
+//     let txtInput2 = document.getElementById("inputText02");
+//     console.log(txtInput2.value);
+//     let heading = document.getElementById("heading");
+//     num = Number(txtInput1.value) + Number(txtInput2.value);
+//     heading.innerText = "Sum: " + num;
+
+
+// }
+
+// function Substracting() {
+//     let txtInput1 = document.getElementById("inputText01");
+//     console.log(txtInput1.value);
+//     let txtInput2 = document.getElementById("inputText02");
+//     console.log(txtInput2.value);
+//     let heading = document.getElementById("heading");
+//     num = txtInput1.value - txtInput2.value;
+//     heading.innerText = num;
+
+
+// }
+
+let customerList = [];
+
+function btnAddCustomerOnAction() {
+    let txtName = document.getElementById("txtName").value;
+    let txtAddress = document.getElementById("txtAddress").value;
+    let txtAge = document.getElementById("txtAge").value;
+    let txtEmail = document.getElementById("txtEmail").value;
+    let txtSalary = document.getElementById("txtSalary").value;
+
+
+    let customer = {
+        name: txtName,
+        address: txtAddress,
+        age: txtAge,
+        email: txtEmail,
+        salary: txtSalary
+
+    }
+    
+    customerList.push(customer);
+    console.log(customerList);
 
 
 }
-
-function Substracting() {
-    let txtInput1 = document.getElementById("inputText01");
-    console.log(txtInput1.value);
-    let txtInput2 = document.getElementById("inputText02");
-    console.log(txtInput2.value);
-    let heading = document.getElementById("heading");
-    num = txtInput1.value - txtInput2.value;
-    heading.innerText = num;
-
-
-}
-
 
 
 

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saman</title>
-    
+
 </head>
+
 <body>
-    
+
 
 
     <!-- <input type="text" placeholder="Enter Number 01" id="inputText01">
@@ -19,7 +21,7 @@
     <!-- <input type="button" value="+" onclick="increaseValue()">
     <input type="button" value="-" onclick="decreaseValue()"> -->
 
-     <h1>Customer Manager</h1>
+    <h1>Customer Manager</h1>
 
     <input type="text" placeholder="name" id="txtName">
     <input type="text" placeholder="address" id="txtAddress">
@@ -30,9 +32,20 @@
 
     <input type="button" value="Add Customer" onclick="btnAddCustomerOnAction()">
 
+    <table border="1" id="tblCustomers">
+        <tr>
+            <td>Name</td>
+            <td>Address</td>
+            <td>Age</td>
+            <td>Email</td>
+            <td>Salary</td>
+        </tr>
+    </table>
 
+    <input type="button" value="Load Table" onclick="loadTable()">
 
     <script src="app.js"></script>
 
 </body>
+
 </html>

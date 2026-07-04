@@ -74,13 +74,20 @@
 let heading = document.getElementById("heading");
 
 // heading.innerText = "lapulga";
+let number = 0;
 
-function changeHeading(){
-    heading.innerText = "lapulga"
-console.log("clicked");
+function increment() {
+    heading.innerText = "sanga"+ number++;
+    console.log("clicked");
 
 }
 
+function decrement(){
+        heading.innerText = "sanga"+ number--;
+    console.log("clicked");
+    
+
+}
 
 
 

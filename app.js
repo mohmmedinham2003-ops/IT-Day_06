@@ -68,9 +68,13 @@
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
 console.log(document.title);
+console.log(document.URL);
+
 
 let heading = document.getElementById("heading");
 console.log(heading);
+
+heading.innerText = "lapulga";
 
 
 

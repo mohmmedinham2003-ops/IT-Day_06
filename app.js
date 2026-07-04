@@ -67,14 +67,19 @@
 // console.log(customer2.items[0].variants[0].name);
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
-console.log(document.title);
-console.log(document.URL);
+// console.log(document.title);
+// console.log(document.URL);
 
 
 let heading = document.getElementById("heading");
-console.log(heading);
 
-heading.innerText = "lapulga";
+// heading.innerText = "lapulga";
+
+function changeHeading(){
+    heading.innerText = "lapulga"
+console.log("clicked");
+
+}
 
 
 

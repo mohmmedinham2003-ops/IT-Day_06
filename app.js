@@ -147,6 +147,16 @@ console.log(employee.projects[0]);
 console.log(employee.projects[1].name);
 console.log(employee.projects[2].budget);
 
+console.log(employee.manager);
+console.log(employee.manager.name);
+console.log(employee.manager.office);
+
+console.log(employee.projects[0].team);
+console.log(employee.projects[0].team[0].name);
+console.log(employee.projects[0].team[1].role);
+
+console.log(employee.company);
+
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
 // console.log(document.title);

@@ -136,6 +136,12 @@ let employee = {
     company: "Tech Solutions Ltd"
 };
 
+console.log(employee.id);
+console.log(employee.name);
+console.log(employee.age);
+console.log(employee.department);
+console.log(employee.salary);
+
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
 // console.log(document.title);

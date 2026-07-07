@@ -88,6 +88,54 @@ console.log(customer2.father.name);
 console.log(customer2.items[0].variants[0].name);
 console.log(customer2.location);
 
+let employee = {
+    id: "E001",
+    name: "Alice",
+    age: 28,
+    department: "IT",
+    salary: 75000,
+
+    projects: [
+        {
+            id: 101,
+            name: "Library Management System",
+            budget: 150000,
+
+            team: [
+                {
+                    id: 1,
+                    name: "David",
+                    role: "Frontend Developer"
+                },
+                {
+                    id: 2,
+                    name: "Emma",
+                    role: "Backend Developer"
+                }
+            ]
+        },
+        {
+            id: 102,
+            name: "Online Shopping System",
+            budget: 250000
+        },
+        {
+            id: 103,
+            name: "Banking Application",
+            budget: 500000
+        }
+    ],
+
+    manager: {
+        id: "M001",
+        name: "Michael",
+        age: 45,
+        office: "Colombo"
+    },
+
+    company: "Tech Solutions Ltd"
+};
+
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
 // console.log(document.title);

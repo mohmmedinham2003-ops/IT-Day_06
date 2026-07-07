@@ -69,7 +69,10 @@ let customer2 = {
         age: 50,
         address: "chicago"
 
-    }
+    },
+    location:"Colombo"
+
+    
 };
 
 
@@ -83,6 +86,8 @@ console.log(customer2.father);
 console.log(customer2.items[2]);
 console.log(customer2.father.name);
 console.log(customer2.items[0].variants[0].name);
+console.log(customer2.location);
+
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
 // console.log(document.title);

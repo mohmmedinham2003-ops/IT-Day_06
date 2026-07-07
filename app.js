@@ -88,6 +88,32 @@
 //     console.log("clicked");
 
 // }
+// let num = 0;
+
+// function adding() {
+//     let txtInput1 = document.getElementById("inputText01");
+//     console.log(txtInput1.value);
+//     let txtInput2 = document.getElementById("inputText02");
+//     console.log(txtInput2.value);
+//     let heading = document.getElementById("heading");
+//     num = Number(txtInput1.value) + Number(txtInput2.value);
+//     heading.innerText = "Sum: " + num;
+
+
+// }
+
+// function Substracting() {
+//     let txtInput1 = document.getElementById("inputText01");
+//     console.log(txtInput1.value);
+//     let txtInput2 = document.getElementById("inputText02");
+//     console.log(txtInput2.value);
+//     let heading = document.getElementById("heading");
+//     num = txtInput1.value - txtInput2.value;
+//     heading.innerText = num;
+
+
+// }
+
 let num = 0;
 
 function adding() {
@@ -113,7 +139,6 @@ function Substracting() {
 
 
 }
-
 
 
 

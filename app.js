@@ -142,6 +142,11 @@ console.log(employee.age);
 console.log(employee.department);
 console.log(employee.salary);
 
+console.log(employee.projects);
+console.log(employee.projects[0]);
+console.log(employee.projects[1].name);
+console.log(employee.projects[2].budget);
+
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
 // console.log(document.title);

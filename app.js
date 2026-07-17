@@ -165,11 +165,18 @@
 
 // let heading = document.getElementById("heading");
 
-let heading = document.getElementById("heading");
+// let heading = document.getElementById("heading");
+// heading.innerText = "Lapulga";
+
+// console.log(heading);
+
+function changeHeading(){
 heading.innerText = "Lapulga";
+console.log("clicked");
 
-console.log(heading);
 
+
+}
 
 // // heading.innerText = "lapulga";
 // let number = 0;

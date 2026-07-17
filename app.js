@@ -88,74 +88,74 @@
 // console.log(customer2.items[0].variants[0].name);
 // console.log(customer2.location);
 
-let employee = {
-    id: "E001",
-    name: "Alice",
-    age: 28,
-    department: "IT",
-    salary: 75000,
+// let employee = {
+//     id: "E001",
+//     name: "Alice",
+//     age: 28,
+//     department: "IT",
+//     salary: 75000,
 
-    projects: [
-        {
-            id: 101,
-            name: "Library Management System",
-            budget: 150000,
+//     projects: [
+//         {
+//             id: 101,
+//             name: "Library Management System",
+//             budget: 150000,
 
-            team: [
-                {
-                    id: 1,
-                    name: "David",
-                    role: "Frontend Developer"
-                },
-                {
-                    id: 2,
-                    name: "Emma",
-                    role: "Backend Developer"
-                }
-            ]
-        },
-        {
-            id: 102,
-            name: "Online Shopping System",
-            budget: 250000
-        },
-        {
-            id: 103,
-            name: "Banking Application",
-            budget: 500000
-        }
-    ],
+//             team: [
+//                 {
+//                     id: 1,
+//                     name: "David",
+//                     role: "Frontend Developer"
+//                 },
+//                 {
+//                     id: 2,
+//                     name: "Emma",
+//                     role: "Backend Developer"
+//                 }
+//             ]
+//         },
+//         {
+//             id: 102,
+//             name: "Online Shopping System",
+//             budget: 250000
+//         },
+//         {
+//             id: 103,
+//             name: "Banking Application",
+//             budget: 500000
+//         }
+//     ],
 
-    manager: {
-        id: "M001",
-        name: "Michael",
-        age: 45,
-        office: "Colombo"
-    },
+//     manager: {
+//         id: "M001",
+//         name: "Michael",
+//         age: 45,
+//         office: "Colombo"
+//     },
 
-    company: "Tech Solutions Ltd"
-};
+//     company: "Tech Solutions Ltd"
+// };
 
-console.log(employee.id);
-console.log(employee.name);
-console.log(employee.age);
-console.log(employee.department);
-console.log(employee.salary);
+// console.log(employee.id);
+// console.log(employee.name);
+// console.log(employee.age);
+// console.log(employee.department);
+// console.log(employee.salary);
 
-console.log(employee.projects);
-console.log(employee.projects[0]);
-console.log(employee.projects[1].name);
-console.log(employee.projects[2].budget);
+// console.log(employee.projects);
+// console.log(employee.projects[0]);
+// console.log(employee.projects[1].name);
+// console.log(employee.projects[2].budget);
 
-console.log(employee.manager);
-console.log(employee.manager.name);
-console.log(employee.manager.office);
+// console.log(employee.manager);
+// console.log(employee.manager.name);
+// console.log(employee.manager.office);
 
-console.log(employee.projects[0].team);
-console.log(employee.projects[0].team[0].name);
-console.log(employee.projects[0].team[1].role);
+// console.log(employee.projects[0].team);
+// console.log(employee.projects[0].team[0].name);
+// console.log(employee.projects[0].team[1].role);
 
-console.log(employee.company);
+// console.log(employee.company);
 
 
 // document.write("<p>vksjdvljsdvljnjlvnsjdvn kdfsdnfsdnffd ififushfiusdf</p>");
@@ -165,7 +165,9 @@ console.log(employee.company);
 
 // let heading = document.getElementById("heading");
 
-let heading = document,getElementById("heading");
+let heading = document.getElementById("heading");
+console.log(heading);
+
 
 // // heading.innerText = "lapulga";
 // let number = 0;

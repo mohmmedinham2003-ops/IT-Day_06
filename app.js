@@ -166,6 +166,8 @@
 // let heading = document.getElementById("heading");
 
 let heading = document.getElementById("heading");
+heading.innerText = "Lapulga";
+
 console.log(heading);
 
 
